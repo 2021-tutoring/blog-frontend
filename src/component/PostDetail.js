@@ -1,4 +1,4 @@
-const PostDetailPage = () => {
+const PostDetail = () => {
     return(
         <div>
             Detail
@@ -6,4 +6,4 @@ const PostDetailPage = () => {
     )
 }
 
-export default PostDetailPage;
+export default PostDetail;

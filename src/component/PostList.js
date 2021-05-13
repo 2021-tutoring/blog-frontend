@@ -2,19 +2,22 @@ import {Link} from "react-router-dom";
 
 const PostList = () => {
 
-    let a = [{a: 'zero', b: 'one', c: 'tow'}, {a: 'zero1', b: 'one2', c: 'tow3'}, {a: 'zero1', b: 'one2', c: 'tow3'}];
+    let a = [
+        {id: 'zero', subject: 'one', title: 'tow', commentNo: 'tow', user: 'tow', views: 'tow', createdDate: 'tow'},
+        {id: 'zero', subject: 'one', title: 'tow', commentNo: 'tow', user: 'tow', views: 'tow', createdDate: 'tow'},
+        {id: 'zero', subject: 'one', title: 'tow', commentNo: 'tow', user: 'tow', views: 'tow', createdDate: 'tow'}];
 
 
     let postInfo = (contents) => {
         return contents.map(content => (
             <tr>
-                <th>{content.a}</th>
-                <th>{content.b}</th>
-                <th><Link to={`/${content.a}`}>{content.c}</Link></th>
-                <th>{content.a}</th>
-                <th>{content.b}</th>
-                <th>{content.c}</th>
-                <th>{content.a}</th>
+                <th>{content.id}</th>
+                <th>{content.subject}</th>
+                <th><Link to={`/posts/${content.id}`}>{content.title}</Link></th>
+                <th>{content.commentNo}</th>
+                <th>{content.user}</th>
+                <th>{content.views}</th>
+                <th>{content.createdDate}</th>
             </tr>
         ))
     }

@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c58cb97-8dc7-46a2-bdd1-056bf5d95426" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/PostList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/PostDetailPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/PostListPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/PostWrite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/PostDetail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +41,11 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alway\SSU\2021-1\튜터링\frontend\src\component" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -63,7 +70,8 @@
       <option name="presentableId" value="Default" />
       <updated>1620833611120</updated>
       <workItem from="1620833613389" duration="206000" />
-      <workItem from="1620833835952" duration="5052000" />
+      <workItem from="1620833835952" duration="8305000" />
+      <workItem from="1621421578073" duration="4865000" />
     </task>
     <servers />
   </component>
@@ -80,5 +88,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
